@@ -1,6 +1,22 @@
 <!-- src/routes/index.svelte -->
 
 <script>
+  //   import { onMount } from 'svelte';
+
+  //   let viewers = [];
+
+  //   onMount(async () => {
+  //     const response = await fetch('viewers.json');
+  //     const data = await response.json();
+  //     viewers = data.viewers.sort((a, b) => a.viewers - b.viewers);
+  //   });
+
+  // <ul>
+  //   {#each viewers as viewer}
+  //     <li>{viewer.name} - {viewer.category} - {viewer.viewers} viewers</li>
+  //   {/each}
+  // </ul>
+
   const streams = [
     {
       id: 1,
